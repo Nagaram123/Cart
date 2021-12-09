@@ -1,0 +1,24 @@
+package com.lambdaexpression.program;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Lam {
+
+	public static void main(String[] args) {
+		ArrayList<Storage> fruits = new ArrayList();
+		fruits.add(new Storage("Apple", 50));
+		fruits.add(new Storage("Grapes", 150));
+		fruits.add(new Storage("Strawberries", 250));
+		fruits.add(new Storage("Guava", 20));
+		fruits.add(new Storage("Pineapple", 750));
+
+		Collections.sort(fruits, (Storage fruits1, Storage fruits2) -> {
+			return fruits1.getName().compareTo(fruits2.getName());
+		});
+		for (Storage f1 : fruits) {
+			System.out.println(f1);
+		}
+	}
+
+}
