@@ -19,6 +19,6 @@ public class Lam {
 		for (Storage f1 : fruits) {
 			System.out.println(f1);
 		}
-	}
+}
 
 } 
