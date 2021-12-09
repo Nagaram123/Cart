@@ -1,0 +1,15 @@
+package com.trees.air;
+
+public class Main1 {
+	public static void main(String[] args) {
+
+		rose r = new rose("rose", "not a hybride", 2, "red colour", "small", "lovelyfragrance");
+
+		r.getting();
+		r.air();
+		r.grow();
+		r.air();
+		r.getting(2);
+
+	}
+}

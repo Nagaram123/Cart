@@ -1,0 +1,49 @@
+package com.trees.air;
+
+public class plant {
+
+	private String plantname;
+	private String hybride;
+	private int height;
+
+	public plant(String plantname, String hybride, int height) {
+
+		this.plantname = plantname;
+		this.hybride = hybride;
+		this.height = height;
+
+	}
+
+	public void grow() {
+		System.out.println("collecting food() ");
+	}
+
+	public void air() {
+		System.out.println("breathing oxygen() plant");
+	}
+
+	public String getPlantname() {
+		return plantname;
+	}
+
+	public void setPlantname(String plantname) {
+		this.plantname = plantname;
+	}
+
+	public String getHybride() {
+		return hybride;
+	}
+
+	public void setHybride(String hybride) {
+		this.hybride = hybride;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public void setHeight(int height) {
+		this.height = height;
+	}
+
+}
